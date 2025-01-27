@@ -1,0 +1,30 @@
+.interesno{
+    margin-top: 47px;
+    margin-bottom: 35px;
+}
+.interesno h2{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 40px;
+line-height: 120%;
+text-align: center;
+color: rgba(6, 18, 36, 0.9);
+}
+.interesno_wrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 46px;
+}
+@media (max-width:900px) {
+    .interesno_wrapper{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 35px;
+    }
+}
+@media (max-width:450px) {
+    .interesno_wrapper{
+        grid-template-columns: repeat(1,1fr);
+    }
+}

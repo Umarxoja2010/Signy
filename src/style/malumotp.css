@@ -1,0 +1,13 @@
+.malumotP{
+    margin-bottom: 24px;
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 147%;
+color: rgba(6, 18, 36, 0.9);
+}
+.malumotP img {
+    margin-top: 24px;
+    display: block;
+    margin: 24px auto 0;
+}

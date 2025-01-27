@@ -1,0 +1,43 @@
+.savga{
+    margin-bottom: 55px;
+}
+.savga_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.sovga_card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+.sovga_card h4{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 20px;
+color: rgba(6, 18, 36, 0.9);
+}
+.sovga_card p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+letter-spacing: 0.04em;
+color: rgba(6, 18, 36, 0.9);
+width: 50%;
+}
+@media (max-width: 768px) {
+    .savga_wrapper{
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .sovga_card{
+        width: 100%;
+        margin-top: 50px;
+    }
+}

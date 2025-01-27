@@ -1,0 +1,67 @@
+.u404{
+    background-image: url("../image/404.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 386px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-bottom: 30px;
+}
+.u404 p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+text-align: center;
+color: #fff;
+}
+.u404 button{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.19em;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    border: 1.50px solid #fff;
+border-radius: 43px;
+width: 178px;
+height: 40px;
+background-color: transparent;
+margin: 25px auto;
+display: block;
+}
+@media (max-width:850px) {
+    .u404 p{
+        font-size: 20px;
+        width: 100%;
+    }
+    .u404 button{
+        font-size: 12px;
+        width: 120px;
+    }
+}
+@media (max-width:750px) {
+
+    .u404 p{
+        font-size: 18px;
+        width: 100%;
+    }
+.u404{
+    padding-top: 346px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 20px;
+}
+
+}
+@media (max-width:550px) {
+.u404{
+    padding-top: 306px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+}
+
+}

@@ -1,0 +1,59 @@
+.podpiska{
+    background: #d8f1f0;
+}
+.podpiska h1{
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 73px;
+line-height: 66%;
+text-align: center;
+color: rgba(6, 18, 36, 0.9);
+padding-top: 43px;
+}
+.podpiska h4{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 40px;
+line-height: 120%;
+text-align: center;
+color: rgba(6, 18, 36, 0.9);
+margin-top: 12px;
+margin-bottom: 12px;
+}
+.podpiska p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 156%;
+text-align: center;
+color: rgba(6, 18, 36, 0.9);
+padding-bottom: 44px;
+width: 50%;
+display: block;
+margin: 0 auto;
+}
+@media (max-width:700px) {
+    .podpiska h1{
+        font-size: 56px;
+    }
+    .podpiska h4{
+        font-size: 32px;
+    }
+    .podpiska p{
+        font-size: 14px;
+        width: 80%;
+    }
+}
+@media (max-width:450px) {
+
+    .podpiska h1{
+        font-size: 38px;
+    }
+    .podpiska h4{
+        font-size: 24px;
+    }
+    .podpiska p{
+        font-size: 12px;
+        width: 90%;
+    }
+}

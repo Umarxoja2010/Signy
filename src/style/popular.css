@@ -1,0 +1,27 @@
+.popular{
+    background: #deeefc;
+    padding-top: 26px;
+    padding-bottom: 42px;
+}
+.popular h2{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 40px;
+line-height: 120%;
+text-align: center;
+color: rgba(6, 18, 36, 0.9);
+margin-bottom: 36px;
+}
+.popular_content{
+    display: flex;
+    align-items: center;
+gap: 19px;
+margin-bottom: 18px;
+}
+.popular p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 122%;
+color: rgba(6, 18, 36, 0.9);
+}

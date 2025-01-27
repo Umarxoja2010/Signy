@@ -1,0 +1,131 @@
+.kontaktt{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.kontaktt h1{
+    font-family: var(--second-family);
+font-weight: 500;
+font-size: 40px;
+line-height: 105%;
+color: rgba(6, 18, 36, 0.9);
+margin-bottom: 24px;
+}
+.kontaktt_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 24px;
+}
+.kontaktt_kontent p{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+color: rgba(6, 18, 36, 0.9);
+margin-bottom: 6px;
+}
+.kontaktt_kontent_phone{
+    display: flex;
+    align-items: center;
+}
+.kontaktt_kontent span{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 156%;
+color: rgba(6, 18, 36, 0.9);
+margin-bottom: 6px;
+display: block;
+margin-left: 20px;
+}
+.kontaktt_kontent_email{
+    display: flex;
+    align-items: center;
+
+}
+.kontaktt_kontent_location{
+    display: flex;
+    align-items: center;
+}
+.kontaktt input{
+    border-radius: 48px;
+fill: #fff;
+stroke-width: 1px;
+stroke: rgba(6, 18, 36, 0.9);
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 156%;
+color: #9ba0a7;
+padding-left: 21px;
+padding-top: 17px;
+padding-bottom: 17px;
+width: 35%;
+}
+.kontaktt h6{
+    font-family: var(--font-family);
+font-weight: 400;
+font-size: 18px;
+line-height: 156%;
+color: rgba(6, 18, 36, 0.9);
+margin-bottom: 13px;
+margin-top: 5px;
+margin-left: 15px;
+}
+.kontaktt button{
+    font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+line-height: 171%;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+border-radius: 45px;
+width: 217px;
+height: 50px;
+background: #1064e5;
+border: none;
+display: block;
+margin-top: 15px;
+cursor: pointer;
+}
+.kontaktt_img {
+    width: 80%;
+}
+@media (max-width:1000px) {
+ .kontaktt_wrapper{
+    flex-direction: column;
+ }
+}
+@media (max-width:750px) {
+    .kontaktt input{
+        width: 65%;
+    }
+    .kontaktt_img img{
+        width: 110%;
+    }
+}
+@media (max-width:500px){
+    .kontaktt button{
+        width: 60%;
+    }
+    .kontaktt input{
+        width: 90%;
+    }
+    .kontaktt h1{
+        font-size: 30px;
+    }
+    .kontaktt span{
+        font-size: 13px;
+    }
+    .kontaktt p{
+        font-size: 14px;
+    }
+    .kontaktt h6{
+        font-size: 15px;
+    }
+    .kontaktt_img img{
+        width: 120%;
+    }
+} 
